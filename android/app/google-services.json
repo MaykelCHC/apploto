@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "979871787787",
+    "firebase_url": "https://gordo-triana-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "gordo-triana",
+    "storage_bucket": "gordo-triana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979871787787:android:4c4db762e02266eefc500e",
+        "android_client_info": {
+          "package_name": "com.es.gordo_triana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979871787787-l83e6qbt4q3cs04mi1pimgssimlkv03v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.es.gordo_triana",
+            "certificate_hash": "889f00acfc32855d62c25202b65b89506ca6547e"
+          }
+        },
+        {
+          "client_id": "979871787787-d59mq3pcip5ecmv8mnqq3va2t0h8e7tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQaFy6tOXvWrQ5k20qY5MKpbmqMrbgRC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979871787787-d59mq3pcip5ecmv8mnqq3va2t0h8e7tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
