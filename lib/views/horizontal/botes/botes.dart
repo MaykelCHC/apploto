@@ -3,18 +3,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gordo_triana/services/conexion.dart';
+import 'package:gordo_triana/styles/estilos_app.dart';
 
-class BotesPage extends StatelessWidget {
-  Color loterianacional = const Color(0xff007ac0);
-  Color euromillones = const Color(0xff001367);
-  Color bonoloto = const Color(0xff7a8634);
-  Color laprimitiva = const Color(0xff008547);
-  Color laquiniela = const Color(0xffcb1517);
-  Color elgordo = const Color(0xffdc3f47);
-  Color quinigol = const Color(0xff74bacd);
-  Color lotosurf = const Color(0xffd16929);
-  Color quinqueplus = const Color(0xffeab842);
-
+class BotesPageH extends StatelessWidget {
   DateTime fecha = DateTime.now();
 
   @override
@@ -62,7 +53,7 @@ class BotesPage extends StatelessWidget {
                             child: InkWell(
                               child: Text('sad'),
                               onTap: () {
-                                fechaLN();
+
                               },
                             ),
                           ),

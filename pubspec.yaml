@@ -16,7 +16,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  flutter_svg: ^1.0.2
+  flutter_svg:
+  match:
+  intl:
   feed_finder: ^1.0.9
   http: ^0.13.4
   xml_parser: ^1.0.0
@@ -29,10 +31,12 @@ dependencies:
   flutter_native_splash:
   marquee: ^2.2.0
   marquee_widget: ^1.2.0
-  auto_route: ^3.2.2
-  video_player:
-  chewie:
-  url_launcher:
+  flutter_math:
+  html:
+  webfeed:
+  dart_rss:
+  carousel_slider:
+  flutter_html:
 
 
 dev_dependencies:
@@ -46,6 +50,7 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
   flutter_launcher_icons:
+
 
 flutter_icons:
   android: "launcher_icon"
@@ -91,6 +96,11 @@ flutter:
     - assets/botones/quinqueplus.png
     - assets/banners/banners1.jpg
     - assets/banners/banners2.jpg
+    - assets/sliders/slider1.jpg
+    - assets/sliders/slider2.jpg
+    - assets/sliders/slider3.jpg
+    - assets/sliders/slider4.jpg
+    - assets/icon/stars.svg
 
   # To add assets to your application, add an assets section, like this:
   # assets:

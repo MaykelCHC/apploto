@@ -3,18 +3,18 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gordo_triana/services/resultadosindependientesconexion.dart';
 import 'package:gordo_triana/styles/estilos_app.dart';
 
-class ResultadoLaPrimitivaV extends StatelessWidget {
-  const ResultadoLaPrimitivaV({Key? key}) : super(key: key);
+class ResultadoBonoLotoV extends StatelessWidget {
+  const ResultadoBonoLotoV({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: laprimitiva,
-        title: const Text("Resultados de La Primitiva"),
+        backgroundColor: bonoloto,
+        title: const Text("Resultados de Bono Loto"),
       ),
       body: FutureBuilder(
-        future: resultindplaprimi(),
+        future: resultindpbonoloto(),
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           if (snapshot.hasData) {
             var posts = snapshot.data;
@@ -48,20 +48,18 @@ class ResultadoLaPrimitivaV extends StatelessWidget {
                                         height:
                                         MediaQuery.of(context).size.height *
                                             0.05,
-                                        color: euromillones,
+                                        color: bonoloto,
                                         child: Row(
                                           children: [
                                             Expanded(
                                               flex: 2,
-                                              child: Container(
-                                                child: SvgPicture.asset(
-                                                  "assets/images/primitiva-h.svg",
-                                                  color: Colors.white,
-                                                  width: MediaQuery.of(context)
-                                                      .size
-                                                      .width *
-                                                      0.35,
-                                                ),
+                                              child: SvgPicture.asset(
+                                                "assets/images/bonoloto-h.svg",
+                                                color: Colors.white,
+                                                width: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                    0.35,
                                               ),
                                             ),
                                             Expanded(
